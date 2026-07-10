@@ -68,3 +68,12 @@ Meskipun saat ini berbasis front-end, konsep data analytics dirancang sebagai be
 - **Analisis Produk Terlaris:** Memantau metrik "Terjual" di tiap produk untuk melihat barang apa yang butuh di-*restock* lebih banyak (contoh: Pulpen Gel dan Penghapus).
 - **Analisis Waktu Checkout (Flash Sale Tracker):** Menganalisis seberapa cepat konversi terjadi selama periode *Flash Sale* untuk menentukan jam diskon terbaik.
 - **Conversion Rate Tracking (Google Analytics - Future):** Mengintegrasikan *Google Analytics* pada tombol "Kirim Bukti ke WhatsApp" guna mengukur persentase pengunjung yang berhasil mencapai tahap akhir dari *funnel* penjualan.
+
+### 📂 Struktur Folder
+```text
+📦 nax-b2b-ecommerce
+ ┣ 📂 images/         # (Aset gambar banner, produk, logo)
+ ┣ 📜 index.html      # (Struktur utama halaman)
+ ┣ 📜 style.css       # (Desain, layout, dan media queries)
+ ┣ 📜 script.js       # (Logika keranjang, admin, i18n, dll)
+ ┗ 📜 README.md       # (Dokumentasi proyek)
