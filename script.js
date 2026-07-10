@@ -1,13 +1,4 @@
-/**
- * Novationery — Main JavaScript (LENGKAP dengan fitur baru)
- * Fitur: Home, Catalog (filter & sort), Cart, Checkout, Product Detail,
- *        User Auth & Profile, Reviews, Admin CRUD, Flash Sale, dll.
- * Semua data disimpan di localStorage (simulasi).
- */
 
-// ============================================================
-// DATA AWAL
-// ============================================================
 const DEFAULT_PRODUCTS = [
     { id: 1, name: 'Pulpen Gel Hitam', category: 'Alat Tulis', price: 3500, stock: 50, image: 'images/pulpen_gel.jpg', discount: 0, discountType: 'none', sold: 120, rating: 4.5 },
     { id: 2, name: 'Buku Tulis 100 Lembar', category: 'Kertas', price: 12000, stock: 30, image: 'images/buku_tulis.jpg', discount: 0, discountType: 'none', sold: 85, rating: 4.7 },
